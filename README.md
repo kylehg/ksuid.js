@@ -1,6 +1,8 @@
 # ksuid.js
 Universal JavaScript K-sortable UUIDs (KSUIDs)
 
+**NB: This is currently a personal-interest project and not meant for broader use, certainly not in a production environment.**
+
 ## TODO
 
 - [x] basic KSUID, segment version
