@@ -22,3 +22,5 @@ Universal JavaScript K-sortable UUIDs (KSUIDs)
     - [ ] Init from Date + buffer
     - [ ] Init from pure buffer
 - [ ] Perf comparison with ksuid package for Node
+- [ ] GitHub/CI integration
+- [ ] v1
