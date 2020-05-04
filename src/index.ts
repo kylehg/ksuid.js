@@ -139,7 +139,7 @@ export class KSUID {
   }
 
   getRandBytes(): Uint8Array {
-    let arr = new Uint8Array(this.RAND_PART_BYTES)
+    const arr = new Uint8Array(this.RAND_PART_BYTES)
     if (
       typeof window !== "undefined" &&
       window.crypto &&
@@ -184,13 +184,13 @@ function maxLength(arrayLen: number, from: number, to: number): number {
  * @see https://github.com/novemberborn/base-convert-int-array/blob/master/index.js
  */
 function baseConvertIntArray(
-  array: Array<number>,
+  array: number[],
   {
     from,
     to,
     fixedLength = null,
   }: {from: number; to: number; fixedLength: number | null}
-): Array<number> {
+): number[] {
   const maxLen = maxLength(array.length, from, to)
   const length = fixedLength === null ? maxLen : fixedLength
   const result = new Array(length)
