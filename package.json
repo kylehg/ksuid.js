@@ -1,6 +1,6 @@
 {
   "name": "ksuid.js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Universal JavaScript K-sortable UUIDs (KSUIDs)",
   "main": "index.ts",
   "scripts": {
